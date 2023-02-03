@@ -30,3 +30,6 @@ Information on the license used for the project, such as MIT or Apache.
 
 # Acknowledgments
 Any credits or references used while building the project, such as libraries or tutorials.
+
+## Contact
+For more information or inquiries about the project, you may reach out to me at hamsomp3@hotmail.com. I'd be more than happy to assist you. Thank you for considering this project!
