@@ -2,11 +2,11 @@
 Brief description of the project and its purpose.
 
 
-![A cute kitten]([https://example.com/kitten.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3ARed_Kitten_01.jpg&psig=AOvVaw1Iw9X0q0U6VCMXKVWpiVqK&ust=1675516149680000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKDi0Zi2-fwCFQAAAAAdAAAAABAE))
+![A cute kitten](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Red_Kitten_01.jpg/800px-Red_Kitten_01.jpg)
 
 
 # Table of Contents
-- [Getting Started](# Getting Started)
+- [Getting Started](#Getting Started)
 - [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
 - [Usage](#Usage)
