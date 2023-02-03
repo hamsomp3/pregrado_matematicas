@@ -2,13 +2,13 @@
 Brief description of the project and its purpose.
 
 # Table of Contents
-Getting Started
-Prerequisites
-Installation
-Usage
-Contribution
-License
-Acknowledgments
+- [Getting Started](#Getting Started)
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contribution](#Contribution)
+- [License](#License)
+- [Acknowledgments](#Acknowledgments)
 
 # Getting Started
 Instructions on how to set up the project locally, including any necessary dependencies.
