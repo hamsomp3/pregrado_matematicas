@@ -9,35 +9,44 @@ The thesis also considers the model of Blind Adaptive Beamforming, where the inf
 $\textbf{Keywords:}$ Wireless networks, Beamforming, Optimization algorithms, Blind Adaptive Beamforming, Metaheuristic algorithms.
 
 # Table of Contents
-- [Getting Started](#Getting Started)
+
 - [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Contribution](#Contribution)
 - [License](#License)
-- [Acknowledgments](#Acknowledgments)
 - [Contact](#Contact)
 
-# Getting Started
-Instructions on how to set up the project locally, including any necessary dependencies.
-
 # Prerequisites
-List of tools and technologies required to set up the project.
+The simulations were performed on a modern computer using $MATLAB\textsuperscript{\textregistered}$ R2022B software, this being a laptop with Intel(R) 12th Gen Core i9 12900H processor at 2.5 GHz with 14 cores, RAM 32 GB. Operating System Windows 11 Professional at 64 bits and NVIDIA GeForce RTX 3080 Ti with 16GB.
 
 # Installation
-Step by step instructions on how to install and set up the project.
+Once you install the last version of $MATLAB\textsuperscript{\textregistered}$ R2022B software adn then clone the repository with the 3 folders.
 
 # Usage
-Instructions on how to use the project, along with examples and screenshots.
-
-# Contribution
-Information on how to contribute to the project, such as code of conduct, and how to submit a pull request.
+  1. In the folder: "01_Funciones" execute the code "Main_generador.m".
+  2. In the folder: "02_Algoritmos" execute the codes.
+      - Analisis_01_CGM.m
+      - Analisis_02_SGD.m
+      - Analisis_03_NMS.m
+      - Analisis_04_PSO.m
+      - Analisis_05_BA.m
+      - Analisis_06_CKLF.m
+  3. In the folder: "03_Experimentos" execute the code "MAIN_DEFINITIVO.m".
 
 # License
-Information on the license used for the project, such as MIT or Apache.
+Copyright (c) 2023 act1_met_sim_est_tablero authors
 
-# Acknowledgments
-Any credits or references used while building the project, such as libraries or tutorials.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Contact
-For more information or inquiries about the project, you may reach out to me at hamsomp3@hotmail.com, janpolanco@javerianacali.edu.co or via [LinkedIn](https://www.linkedin.com/in/jan-polanco-velasco/). I'd be more than happy to assist you. Thank you for considering this project!
+For additional information or questions about the project, you can reach out to the following individuals:
+
+- hamsomp3@hotmail.com
+- janpolanco@javerianacali.edu.co
+- [LinkedIn](https://www.linkedin.com/in/jan-polanco-velasco/)
+
+We will be happy to assist you. Thank you for your interest in this project!
