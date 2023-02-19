@@ -6,7 +6,7 @@ This thesis conducts a comparative analysis between classical optimization algor
 
 The thesis also considers the model of Blind Adaptive Beamforming, where the information of the desired and interfering signal orientations is not available for the algorithm. A rectangular flat antenna with 64 radiating elements was used, and metrics such as the bandwidth of the average power in degrees, the radiation intensity of the main lobe, the depth of the first nulls, and the level of the side lobes were implemented, all in decibels. The results aim to improve spectral efficiency and service quality.
 
-$\textbf{Keywords:}$ Wireless networks, Beamforming, Optimization algorithms, Blind Adaptive Beamforming, Metaheuristic algorithms.
+`Keywords:` Wireless networks, Beamforming, Optimization algorithms, Blind Adaptive Beamforming, Metaheuristic algorithms.
 
 # Table of Contents
 
@@ -17,21 +17,25 @@ $\textbf{Keywords:}$ Wireless networks, Beamforming, Optimization algorithms, Bl
 - [Contact](#Contact)
 
 # Prerequisites
-The simulations were performed on a modern computer using $MATLAB\textsuperscript{\textregistered}$ R2022B software, this being a laptop with Intel(R) 12th Gen Core i9 12900H processor at 2.5 GHz with 14 cores, RAM 32 GB. Operating System Windows 11 Professional at 64 bits and NVIDIA GeForce RTX 3080 Ti with 16GB.
+The simulations in this study were performed on a modern computer running the MATLAB&reg; R2022B software. The computer used for the simulations is a laptop with an Intel(R) 12th Gen Core i9 12900H processor with 14 cores, RAM 32 GB, and an operating system of Windows 11 Professional at 64 bits. The computer also has an NVIDIA GeForce RTX 3080 Ti with 16GB.
 
 # Installation
-Once you install the last version of $MATLAB\textsuperscript{\textregistered}$ R2022B software adn then clone the repository with the 3 folders.
+To replicate this study, install the latest version of MATLAB&reg; R2022B software and clone the repository containing the three folders.
 
 # Usage
-  1. In the folder: "01_Funciones" execute the code "Main_generador.m".
-  2. In the folder: "02_Algoritmos" execute the codes.
-      - Analisis_01_CGM.m
-      - Analisis_02_SGD.m
-      - Analisis_03_NMS.m
-      - Analisis_04_PSO.m
-      - Analisis_05_BA.m
-      - Analisis_06_CKLF.m
-  3. In the folder: "03_Experimentos" execute the code "MAIN_DEFINITIVO.m".
+In order to reproduce the experiments in this thesis, follow the steps below:
+
+  1. In the folder: `01_Funciones` execute the code `Main_generador.m`. This code generates the test functions used for the optimization analysis. The generated plots will be stored in the `01_Funciones` folder with `.eps` format.
+  2. In the folder: `02_Algoritmos` execute the codes.
+      - `Analisis_01_CGM.m` - This code applies the Conjugate Gradient Method to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+      - `Analisis_02_SGD.m` - This code applies the Stochastic Gradient Descent algorithm to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+      - `Analisis_03_NMS.m` - This code applies the Nelder-Mead Search algorithm to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+      - `Analisis_04_PSO.m` - This code applies the Particle Swarm Optimization algorithm to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+      - `Analisis_05_BA.m` - This code applies the Bat Algorithm to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+      - `Analisis_06_CKLF.m` - This code applies the Cuckoo Search by Lévy Flights algorithm to the test functions generated in step 1. The output of this code is the optimal value and the convergence plot.
+  3. In the folder: `03_Experimentos` execute the code `MAIN_DEFINITIVO.m`. This code runs the experiments for the Blind Adaptive Beamforming model using the six optimization algorithms. The output of this code is a comparison between the performance of the six algorithms in terms of the metrics.
+
+`Note:` Before running the codes, make sure to adjust the stop criteria, maximum number of iterations, and success rate according to your needs. Also, keep in mind that the codes may take some time to run, depending on the size of the test functions, the complexity of the optimization algorithms and the software of your computer.
 
 # License
 Copyright (c) 2023 act1_met_sim_est_tablero authors
